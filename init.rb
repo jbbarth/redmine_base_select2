@@ -8,6 +8,5 @@ Redmine::Plugin.register :redmine_base_select2 do
   author_url 'mailto:jeanbaptiste.barth@gmail.com'
   version '0.0.1'
   url 'https://github.com/jbbarth/redmine_base_select2'
-  requires_redmine :version_or_higher => '2.0.3'
-  requires_redmine_plugin :redmine_base_jquery, :version_or_higher => '0.0.1'
+  requires_redmine :version_or_higher => '2.1.0'
 end
