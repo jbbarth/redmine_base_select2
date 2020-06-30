@@ -429,3 +429,10 @@
   padding: 6px; }
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb; }
+
+
+/* Additions */
+/* Fix issue when first letter is not fully visible */
+.select2-container input.select2-search__field {
+  min-width: 3em;
+}
