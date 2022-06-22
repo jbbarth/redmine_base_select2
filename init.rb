@@ -1,5 +1,5 @@
 require 'redmine'
-require 'redmine_base_select2/hooks'
+require_relative 'lib/redmine_base_select2/hooks'
 
 Redmine::Plugin.register :redmine_base_select2 do
   name 'Redmine Select2 plugin'
